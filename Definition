@@ -1,2 +1,9 @@
 Wikipedia:
 
+Julia is a high-level, general-purpose dynamic programming language, most commonly used for numerical analysis and computational science. Distinctive aspects of Julia's design include a type system with parametric polymorphism and the use of multiple dispatch as a core programming paradigm, efficient garbage collection, and a just-in-time (JIT) compiler (with support for ahead-of-time compilation).
+
+Julia can be run similar to (interpreted) scripting languages (i.e. Julia has a REPL), and does[clarification needed] by default using its runtime (when preinstalled),[28] but Julia programs/source code can also optionally be sent to users in one ready-to-install/run file, which can be made quickly, not needing anything preinstalled.[citation needed] Julia programs can also be (separately) compiled to binary executables, even allowing no-source-code distribution. Such compilation is not needed for speed, since Julia is also compiled when running interactively, but it can help with hiding source code. Features of the language can be separately compiled, so Julia can be used, for example, with its runtime or without it (which allows for smaller executables and libraries but is limited in capabilities).
+
+Julia programs can reuse libraries from other languages by calling them, e.g. calling C or Rust libraries, and Julia (libraries) can also be called from other languages, e.g. Python and R, and several Julia packages have been made easily available from those languages, in the form of Python and R libraries for corresponding Julia packages. Calling in either direction has been implemented for many languages such as all of these.
+
+Julia's Visual Studio Code extension provides a fully-featured integrated development environment with support for debugging, linting, and profiling.
